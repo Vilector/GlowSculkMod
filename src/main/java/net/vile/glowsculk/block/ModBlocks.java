@@ -28,13 +28,13 @@ public class ModBlocks {
     public static final Block SCULK_CLUSTER = registerBlock("sculk_cluster", new SculkClusterBlock(7, 3,
             AbstractBlock.Settings.of(Material.AMETHYST).nonOpaque().ticksRandomly().sounds(BlockSoundGroup.AMETHYST_CLUSTER).strength(1.5F).luminance((state) -> {return 5;
     })), ModItemGroup.HOWTO);
-    public static final Block LARGE_SCULK_BUD = registerBlock("large_sculk_bud", new SculkClusterBlock(5, 3,AbstractBlock.Settings.copy(SCULK_CLUSTER).sounds(BlockSoundGroup.MEDIUM_AMETHYST_BUD).luminance((state) -> {
+    public static final Block LARGE_SCULK_BUD = registerBlock("large_sculk_bud", new SculkClusterBlock(5, 3,AbstractBlock.Settings.copy(SCULK_CLUSTER).nonOpaque().sounds(BlockSoundGroup.MEDIUM_AMETHYST_BUD).luminance((state) -> {
         return 4;
     })), ModItemGroup.HOWTO);
-    public static final Block MEDIUM_SCULK_BUD = registerBlock("medium_sculk_bud", new SculkClusterBlock(4, 3,AbstractBlock.Settings.copy(SCULK_CLUSTER).sounds(BlockSoundGroup.LARGE_AMETHYST_BUD).luminance((state) -> {
+    public static final Block MEDIUM_SCULK_BUD = registerBlock("medium_sculk_bud", new SculkClusterBlock(4, 3,AbstractBlock.Settings.copy(SCULK_CLUSTER).nonOpaque().sounds(BlockSoundGroup.LARGE_AMETHYST_BUD).luminance((state) -> {
         return 2;
     })), ModItemGroup.HOWTO);
-    public static final Block SMALL_SCULK_BUD = registerBlock("small_sculk_bud", new SculkClusterBlock(3, 4,AbstractBlock.Settings.copy(SCULK_CLUSTER).sounds(BlockSoundGroup.SMALL_AMETHYST_BUD).luminance((state) -> {
+    public static final Block SMALL_SCULK_BUD = registerBlock("small_sculk_bud", new SculkClusterBlock(3, 4,AbstractBlock.Settings.copy(SCULK_CLUSTER).nonOpaque().sounds(BlockSoundGroup.SMALL_AMETHYST_BUD).luminance((state) -> {
         return 1;
     })), ModItemGroup.HOWTO);
 

@@ -1,5 +1,6 @@
 package net.vile.glowsculk.block.custom;
 
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.fluid.FluidState;
@@ -31,7 +32,7 @@ public class SculkClusterBlock extends SculkBlock implements Waterloggable {
     protected final VoxelShape upShape;
     protected final VoxelShape downShape;
     public SculkClusterBlock(int height, int xzOffset, AbstractBlock.Settings settings) {
-        super(settings);
+        super(settings.of(Material.AMETHYST).nonOpaque());
         this.setDefaultState((BlockState)((BlockState)this.getDefaultState().with(WATERLOGGED, false)).with(FACING, Direction.UP));
         this.upShape = Block.createCuboidShape((double)xzOffset, 0.0, (double)xzOffset, (double)(16 - xzOffset), (double)height, (double)(16 - xzOffset));
         this.downShape = Block.createCuboidShape((double)xzOffset, (double)(16 - height), (double)xzOffset, (double)(16 - xzOffset), 16.0, (double)(16 - xzOffset));
@@ -40,7 +41,6 @@ public class SculkClusterBlock extends SculkBlock implements Waterloggable {
         this.eastShape = Block.createCuboidShape(0.0, (double)xzOffset, (double)xzOffset, (double)height, (double)(16 - xzOffset), (double)(16 - xzOffset));
         this.westShape = Block.createCuboidShape((double)(16 - height), (double)xzOffset, (double)xzOffset, 16.0, (double)(16 - xzOffset), (double)(16 - xzOffset));
     }
-
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         Direction direction = (Direction)state.get(FACING);
         switch (direction) {
