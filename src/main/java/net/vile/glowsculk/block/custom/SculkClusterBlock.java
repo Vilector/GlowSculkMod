@@ -30,7 +30,6 @@ public class SculkClusterBlock extends SculkBlock implements Waterloggable {
     protected final VoxelShape westShape;
     protected final VoxelShape upShape;
     protected final VoxelShape downShape;
-
     public SculkClusterBlock(int height, int xzOffset, AbstractBlock.Settings settings) {
         super(settings);
         this.setDefaultState((BlockState)((BlockState)this.getDefaultState().with(WATERLOGGED, false)).with(FACING, Direction.UP));

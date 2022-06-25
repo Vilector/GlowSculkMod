@@ -1,7 +1,8 @@
 {
   "variants": {
-    "": {
-      "model": "minecraft:block/budding_amethyst"
+    "small_sculk_bud": { "model": "glowsculk:block/small_sculk_bud"},
+    "medium_sculk_bud": { "model": "glowsculk:block/medium_sculk_bud"},
+    "large_sculk_bud": { "model": "glowsculk:block/large_sculk_bud"},
+    "sculk_cluster": { "model": "glowsculk:block/sculk_cluster"}
     }
   }
-}

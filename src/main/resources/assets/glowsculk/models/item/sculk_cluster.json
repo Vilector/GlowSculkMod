@@ -1,3 +1,11 @@
 {
-  "parent": "glowsculk:block/sculk_cluster"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "glowsculk:block/sculk_cluster"
+  },
+  "display": {
+    "head": {
+      "translation": [ 0, 14, -5 ]
+    }
+  }
 }

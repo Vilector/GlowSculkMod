@@ -21,10 +21,11 @@
     "facing=up": {
       "model": "glowsculk:block/sculk_cluster"
     },
-    "facing=west": {
-      "model": "glowsculk:block/sculk_cluster",
-      "x": 90,
-      "y": 270
-    }
+    "facing=west":
+      {
+        "model": "glowsculk:block/sculk_cluster",
+        "x": 90,
+        "y": 270
+      }
   }
 }

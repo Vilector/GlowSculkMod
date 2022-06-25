@@ -1,13 +1,11 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
 
 package net.vile.glowsculk.block.custom;
 
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
@@ -19,8 +17,12 @@ public class BuddingSculkBlock extends SculkBlock {
     public static final int GROW_CHANCE = 5;
     private static final Direction[] DIRECTIONS = Direction.values();
 
-    public BuddingSculkBlock(Settings settings) {
+    public BuddingSculkBlock(AbstractBlock.Settings settings) {
         super(settings);
+    }
+
+    public PistonBehavior getPistonBehavior(BlockState state) {
+        return PistonBehavior.DESTROY;
     }
 
     public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
