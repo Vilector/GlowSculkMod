@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 1,
+  "ingredient": {
+  "item": "glowsculk:sculk_ore"
+  },
+  "result": "glowsculk:sculk_crystal"
+}

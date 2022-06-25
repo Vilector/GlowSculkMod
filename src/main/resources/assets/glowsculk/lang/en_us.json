@@ -1,7 +1,13 @@
 {
-  "item.glowsculk.glow_wool": "Glow Wool",
-  "item.glowsculk.raw_sc0re": "Raw Sculk 0re",
-  "item.glowsculk.sc0re": "Sculk 0re",
+  "block.glowsculk.glow_wool_block": "Glow Wool",
+  "block.glowsculk.small_sculk_bud": "Small Sculk Bud",
+  "block.glowsculk.medium_sculk_bud": "Medium Sculk Bud",
+  "block.glowsculk.large_sculk_bud": "Large Sculk Bud",
+  "block.glowsculk.sculk_cluster": "Sculk Cluster",
+
+  "item.glowsculk.sculk_ore": "Foggy Sculk Crystal",
+  "item.glowsculk.sculk_crystal": "Sculk Crystal",
+
 
   "itemGroup.glowsculk.howto": "How To Stuff"
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "# #",
+    "GGG"
+  ],
+  "key": {
+    "#": {
+      "item": "glowsculk:sculk_crystal"
+    },
+    "G": {
+      "item": "glowsculk:glow_wool_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:sculk_sensor"
+  }
+}

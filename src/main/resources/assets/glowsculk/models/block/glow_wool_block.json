@@ -1,0 +1,6 @@
+{
+  "parent": "glowsculk:block/cube_all",
+  "textures": {
+    "all": "glowsculk:block/glow_wool_block"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "glowsculk:item/generated",
+  "textures": {
+    "layer0": "glowsculk:block/medium_sculk_bud"
+  },
+  "display": {
+    "head": {
+      "translation": [ 0, 14, -5 ]
+    }
+  }
+}

@@ -1,6 +1,7 @@
 package net.vile.glowsculk;
 
 import net.fabricmc.api.ModInitializer;
+import net.vile.glowsculk.block.ModBlocks;
 import net.vile.glowsculk.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +14,6 @@ public class GlowSculk implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
