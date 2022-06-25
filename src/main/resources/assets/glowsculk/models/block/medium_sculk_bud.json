@@ -1,6 +1,6 @@
 {
-  "parent": "glowsculk:block/cross",
+  "parent": "block/cross",
   "textures": {
-    "cross": "glowsculk:cross/medium_sculk_bud"
+    "cross": "glowsculk:block/medium_sculk_bud"
   }
 }

@@ -5,7 +5,9 @@
 
 package net.vile.glowsculk.block.custom;
 
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
@@ -17,7 +19,7 @@ public class BuddingSculkBlock extends SculkBlock {
     public static final int GROW_CHANCE = 5;
     private static final Direction[] DIRECTIONS = Direction.values();
 
-    public BuddingSculkBlock(AbstractBlock.Settings settings) {
+    public BuddingSculkBlock(Settings settings) {
         super(settings);
     }
 

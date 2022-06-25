@@ -1,5 +1,5 @@
 {
-  "parent": "glowsculk:block/cross",
+  "parent": "block/cross",
   "textures": {
     "cross": "glowsculk:block/sculk_cluster"
   }
