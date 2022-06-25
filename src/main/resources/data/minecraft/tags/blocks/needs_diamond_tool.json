@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "sculk_cluster"
+    "glowsculk:sculk_cluster",
+    "glowsculk:small_sculk_bud",
+    "glowsculk:medium_sculk_bud",
+    "glowsculk:large_sculk_bud"
   ]
 }

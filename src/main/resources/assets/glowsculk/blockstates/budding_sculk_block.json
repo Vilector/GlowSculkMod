@@ -1,8 +1,6 @@
 {
   "variants": {
-    "small_sculk_bud": { "model": "glowsculk:block/small_sculk_bud"},
-    "medium_sculk_bud": { "model": "glowsculk:block/medium_sculk_bud"},
-    "large_sculk_bud": { "model": "glowsculk:block/large_sculk_bud"},
-    "sculk_cluster": { "model": "glowsculk:block/sculk_cluster"}
+    "": { "model":"glowsculk:block/budding_sculk_block"
+      }
     }
   }

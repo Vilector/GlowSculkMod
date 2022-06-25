@@ -6,8 +6,9 @@
   "block.glowsculk.sculk_cluster": "Sculk Cluster",
   "block.glowsculk.SculkBlock": "Sculk Block",
   "block.glowsculk.SculkClusterBlock": "Sculk Cluster Block",
+  "block.glowsculk.budding_sculk_block": "Budding Sculk Block",
 
-  "item.glowsculk.sculk_ore": "Foggy Sculk Crystal",
+  "item.glowsculk.sculk_ore": "Frozen Sculk Crystal",
   "item.glowsculk.sculk_crystal": "Sculk Crystal",
 
 
